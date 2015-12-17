@@ -20,7 +20,8 @@
 
     <original-package android:name="com.android.browser" />
 
-    <uses-sdk android:minSdkVersion="21"/>
+    <uses-sdk android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
 
     <permission android:name="com.android.browser.permission.PRELOAD"
         android:label="@string/permission_preload_label"
